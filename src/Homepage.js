@@ -2,7 +2,7 @@ import React from 'react'
 
 const Homepage = () => {
   return (
-    <div>Homepage of Infosys</div>
+    <h3>Homepage of Infosys</h3>
   )
 }
 

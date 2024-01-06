@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Homepage from './Homepage';
+import Infosys from './Infosys';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter basename='/infosys'> 
       <Routes> 
-        <Route path="homepage" element={<Homepage/>} />
+        <Route path="/" element ={<Infosys/>} />
+        <Route path="/homepage" element={<Homepage/>} />
       </Routes>
 
     </BrowserRouter>
